@@ -218,12 +218,3 @@ async function deleteChangeTeacher(id) {
     getStudents();
   }
 }
-
-
-const loading = document.getElementById("loading");
-
-const loadingDuration = 1500;
-
-setTimeout(() => {
-  loading.classList.add('loading-none');
-}, loadingDuration);

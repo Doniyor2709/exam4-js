@@ -37,7 +37,7 @@ function getDataTeachers({
           <div class="teachar-info">
           <p class="card-para">📞Phone: <span>${phoneNumber}</span></p>
             <p class="card-para">📧Email: <span>${email}</span></p>
-            <p class="card-para">💍isMarried: ${isMarried ? "✅" : "✖️"} </p>
+            <p class="card-para">isMarried: ${isMarried ? "✅" : "✖️"} </p>
           </div>
           <div class="btns">
             <a href="students.html?teacher=${id}" class="teacherStudents" ><p>See Students</p> <img src="https://cdn-icons-png.flaticon.com/128/2032/2032703.png" alt=""></a>
